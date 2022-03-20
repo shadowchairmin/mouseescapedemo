@@ -2,7 +2,7 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <meta name="twitter:card" content="app" />
+        <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="にげろにげろ(げんじつから)" />
         <meta name="twitter:description" content="レジュメから逃げるデモ javascriptで" />
         <meta name="twitter:image" content="https://raw.githubusercontent.com/shadowchairmin/mouseescapedemo/main/logoesc.png" />
@@ -207,7 +207,7 @@
                         ctx.globalAlpha=1;
                         ctx.clearRect(0,0,W,H);
                         ctx.globalAlpha=1;
-                        ctx.fillStyle="rgb(0,0,"+(120+30*Math.sin(frame/29))+")";
+                        ctx.fillStyle="rgb(0,"+(120+30*Math.sin(frame/29))+","+(120+30*Math.sin(frame/29))+")";
                         ctx.fillRect(aL,aU,aW,aH);
                         ctx.globalAlpha=1;
 
